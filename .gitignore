@@ -1,0 +1,182 @@
+# ESP32 GPIO PCB - .gitignore
+
+# KiCad temporary files
+*.tmp
+*-save.pro
+*-save.kicad_pro
+*-cache.lib
+*-rescue.lib
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+*-rescue.kicad_sch
+*.pro.user
+
+# KiCad auto-backup files
+*-backups/
+*_autosave-*
+*.pro-bak
+*.kicad_pcb.lck
+*.kicad_sch.lck
+
+# Manufacturing output files (can be regenerated)
+gerbers/
+drill/
+*.zip
+*.tar.gz
+
+# Arduino IDE files
+*.hex
+*.bin
+*.elf
+*.map
+build/
+
+# PlatformIO files
+.pio/
+.pioenvs/
+.piolibdeps/
+lib_deps/
+
+# VS Code files
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+
+# Documentation build files
+docs/_build/
+docs/dist/
+
+# Python files (if any automation scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js files (if any web tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.iml
+*.iws
+
+# Archives
+*.7z
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Parcel bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build output
+.nuxt
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local configuration files
+config.local.h
+secrets.h
+local_config.json
+
+# Test output
+test-results/
+coverage/
+
+# Simulation files
+*.raw
+*.cir
+
+# Backup files created by editors
+*~
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
