@@ -1,0 +1,43 @@
+Reference,Value,Description,Package,Quantity,Manufacturer,Part Number,Supplier,Supplier Part,Unit Cost,Extended Cost,Notes
+U1,ESP32-WROOM-32,WiFi/Bluetooth Module,Module,1,Espressif,ESP32-WROOM-32,DigiKey,1904-1023-1-ND,$4.50,$4.50,Main processor module
+U2,AMS1117-3.3,3.3V Linear Regulator,SOT-223,1,Advanced Monolithic Systems,AMS1117-3.3,DigiKey,1016-1070-ND,$0.45,$0.45,Power regulation
+U3,74LVC245APW,Octal Bus Transceiver,TSSOP-20,1,Nexperia,74LVC245APW118,DigiKey,1727-2721-ND,$0.65,$0.65,Level shifter 1
+U4,74LVC245APW,Octal Bus Transceiver,TSSOP-20,1,Nexperia,74LVC245APW118,DigiKey,1727-2721-ND,$0.65,$0.65,Level shifter 2
+U5,CH340C,USB-to-Serial Converter,SOP-16,1,WCH,CH340C,LCSC,C84681,$0.55,$0.55,USB interface
+C1,10uF,Ceramic Capacitor,0805,1,Murata,GRM21BR61E106KA73L,DigiKey,490-3886-ND,$0.12,$0.12,Power filtering
+C2,10uF,Ceramic Capacitor,0805,1,Murata,GRM21BR61E106KA73L,DigiKey,490-3886-ND,$0.12,$0.12,Power filtering
+C3,10uF,Ceramic Capacitor,0805,1,Murata,GRM21BR61E106KA73L,DigiKey,490-3886-ND,$0.12,$0.12,Power filtering
+C4,10uF,Ceramic Capacitor,0805,1,Murata,GRM21BR61E106KA73L,DigiKey,490-3886-ND,$0.12,$0.12,Power filtering
+C5,0.1uF,Ceramic Capacitor,0603,1,Samsung,CL10B104KB8NNNC,DigiKey,1276-1000-ND,$0.02,$0.02,Decoupling
+C6,0.1uF,Ceramic Capacitor,0603,1,Samsung,CL10B104KB8NNNC,DigiKey,1276-1000-ND,$0.02,$0.02,Decoupling
+C7,0.1uF,Ceramic Capacitor,0603,1,Samsung,CL10B104KB8NNNC,DigiKey,1276-1000-ND,$0.02,$0.02,Decoupling
+C8,0.1uF,Ceramic Capacitor,0603,1,Samsung,CL10B104KB8NNNC,DigiKey,1276-1000-ND,$0.02,$0.02,Decoupling
+C9,0.1uF,Ceramic Capacitor,0603,1,Samsung,CL10B104KB8NNNC,DigiKey,1276-1000-ND,$0.02,$0.02,Decoupling
+C10,0.1uF,Ceramic Capacitor,0603,1,Samsung,CL10B104KB8NNNC,DigiKey,1276-1000-ND,$0.02,$0.02,Decoupling
+C11,0.1uF,Ceramic Capacitor,0603,1,Samsung,CL10B104KB8NNNC,DigiKey,1276-1000-ND,$0.02,$0.02,Decoupling
+C12,0.1uF,Ceramic Capacitor,0603,1,Samsung,CL10B104KB8NNNC,DigiKey,1276-1000-ND,$0.02,$0.02,Decoupling
+C13,22pF,Ceramic Capacitor,0603,1,Murata,GRM1885C1H220JA01D,DigiKey,490-3100-ND,$0.03,$0.03,Crystal loading
+C14,22pF,Ceramic Capacitor,0603,1,Murata,GRM1885C1H220JA01D,DigiKey,490-3100-ND,$0.03,$0.03,Crystal loading
+R1,10k,Resistor,0603,1,Yageo,RC0603FR-0710KL,DigiKey,311-10.0KHRCT-ND,$0.01,$0.01,Pull-up resistor
+R2,10k,Resistor,0603,1,Yageo,RC0603FR-0710KL,DigiKey,311-10.0KHRCT-ND,$0.01,$0.01,Pull-up resistor
+R3,10k,Resistor,0603,1,Yageo,RC0603FR-0710KL,DigiKey,311-10.0KHRCT-ND,$0.01,$0.01,Pull-up resistor
+R4,10k,Resistor,0603,1,Yageo,RC0603FR-0710KL,DigiKey,311-10.0KHRCT-ND,$0.01,$0.01,Pull-up resistor
+R5,330,Resistor,0603,1,Yageo,RC0603FR-07330RL,DigiKey,311-330HRCT-ND,$0.01,$0.01,LED current limit
+R6,330,Resistor,0603,1,Yageo,RC0603FR-07330RL,DigiKey,311-330HRCT-ND,$0.01,$0.01,LED current limit
+R7,330,Resistor,0603,1,Yageo,RC0603FR-07330RL,DigiKey,311-330HRCT-ND,$0.01,$0.01,LED current limit
+R8,330,Resistor,0603,1,Yageo,RC0603FR-07330RL,DigiKey,311-330HRCT-ND,$0.01,$0.01,LED current limit
+R9,1k,Resistor,0603,1,Yageo,RC0603FR-071KL,DigiKey,311-1.00KHRCT-ND,$0.01,$0.01,General purpose
+L1,10uH,Ferrite Bead,0603,1,Murata,BLM18PG100SN1D,DigiKey,490-1037-ND,$0.05,$0.05,EMI filtering
+LED1,Green,LED,0805,1,Lite-On,LTST-C170GKT,DigiKey,160-1169-ND,$0.15,$0.15,Power indicator
+LED2,Blue,LED,0805,1,Lite-On,LTST-C170TBKT,DigiKey,160-1579-ND,$0.18,$0.18,WiFi indicator
+LED3,Yellow,LED,0805,1,Lite-On,LTST-C170YKT,DigiKey,160-1167-ND,$0.15,$0.15,Activity indicator
+LED4-LED19,Red,LED,0805,16,Lite-On,LTST-C170CKT,DigiKey,160-1447-ND,$0.12,$1.92,GPIO indicators
+J1,USB-C,USB-C Connector,SMD,1,Korean Hroparts Elec,TYPE-C-31-M-12,LCSC,C165948,$0.45,$0.45,Programming/Power
+J2,DC-005,DC Power Jack,THT,1,CUI Devices,PJ-102AH,DigiKey,CP-102AH-ND,$0.65,$0.65,External power
+J3,Header-10,Pin Header 2.54mm,THT,1,Harwin,M20-9990246,DigiKey,952-2262-ND,$0.85,$0.85,GPIO expansion 1
+J4,Header-10,Pin Header 2.54mm,THT,1,Harwin,M20-9990246,DigiKey,952-2262-ND,$0.85,$0.85,GPIO expansion 2
+J5-J12,Terminal-2,Screw Terminal 2-pin,THT,8,Phoenix Contact,1935161,DigiKey,277-1667-ND,$1.25,$10.00,Screw terminals
+SW1,Reset,Tactile Switch,SMD,1,Omron,B3SN-3012P,DigiKey,SW262CT-ND,$0.25,$0.25,Reset button
+Y1,12MHz,Crystal Oscillator,SMD,1,Abracon,ABM8G-12.000MHZ-4Y-T3,DigiKey,535-12119-ND,$0.35,$0.35,USB controller clock
+PCB,PCB,Printed Circuit Board,80x60mm,1,JLCPCB,ESP32_GPIO_PCB_v1.0,JLCPCB,Custom,$2.50,$2.50,4-layer PCB
+,,,,,,,,Total Unit Cost:,$30.85,,"Based on qty 100, prices subject to change"
