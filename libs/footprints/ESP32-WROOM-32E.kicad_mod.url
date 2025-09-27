@@ -1,0 +1,13 @@
+Raw footprint URL for ESP32-WROOM-32E (Espressif kicad-libraries)
+
+URL: https://raw.githubusercontent.com/espressif/kicad-libraries/2dd885db4b69aa5b4d3a6ae72d3b84fa21747e7e/footprints/Espressif.pretty/ESP32-WROOM-32E.kicad_mod
+
+Fonte: espressif/kicad-libraries
+Data do download sugerida: 2025-09-27
+
+Instruções:
+- Baixe o arquivo .kicad_mod a partir do link acima e coloque em libs/footprints/Module_ESP32-WROOM-32D.pretty/ (ou crie a pasta correspondente).
+- Se o .kicad_mod referir um modelo 3D com caminho absoluto, ajuste para ../3dmodels/NOME.step.
+- Verifique no KiCad (Preferences → Manage Footprint Libraries) e associe ao símbolo do módulo.
+
+Observação: Este footprint é para a variante "32E". Confirme compatibilidade com a sua variante "32D" antes de fabricar.
