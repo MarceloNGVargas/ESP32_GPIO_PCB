@@ -1,0 +1,5 @@
+Ref,Qty,Value,Footprint,Comment
+U1,1,ESP32-WROOM-32D,Module:ESP32-WROOM-32D,ESP32 module
+R1,1,10k,Resistor_SMD:R_0805,Pull-up EN
+J1,1,Header 2x19,Connector_PinHeader_2.54mm:PinHeader_2x19_P2.54mm_Vertical,GPIO header
+J2,1,Header 2x17,Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical,GPIO header
