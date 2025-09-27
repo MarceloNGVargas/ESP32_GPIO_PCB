@@ -1,0 +1,62 @@
+(kicad_pcb (version 7)
+  (generator copilot)
+  (uuid "0d8e4a80-esp32-pcb")
+  (layers
+    (layer "F.Cu" (type "signal"))
+    (layer "B.Mask" (type "mask"))
+    (layer "F.Mask" (type "mask"))
+    (layer "Edge.Cuts" (type "user"))
+    (layer "F.SilkS" (type "silk"))
+  )
+  (setup
+    (pcb_size (width 50) (height 30))
+    (units "mm")
+    (layers_stackup (type "single"))
+    (net_class "Default" (clearance 0.2) (trace_width 0.25))
+  )
+  (footprints
+    (footprint "Module:ESP32-WROOM-32D"
+      (at 25 15)
+      (property "Reference" "U1")
+      (property "Value" "ESP32-WROOM-32D")
+      (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
+      (layer "F.Cu")
+    )
+    (footprint "Connector_PinHeader_2.54mm:PinHeader_2x19_P2.54mm_Vertical"
+      (at 5 5)
+      (property "Reference" "J1")
+      (property "Value" "GPIO Headers 1")
+      (layer "F.Cu")
+    )
+    (footprint "Connector_PinHeader_2.54mm:PinHeader_2x17_P2.54mm_Vertical"
+      (at 45 5)
+      (property "Reference" "J2")
+      (property "Value" "GPIO Headers 2")
+      (layer "F.Cu")
+    )
+    (footprint "Resistor_SMD:R_0805"
+      (at 12 12)
+      (property "Reference" "R1")
+      (property "Value" "10k")
+      (layer "F.Cu")
+    )
+  )
+  (zones
+    (zone (net "GND") (layer "F.Cu")
+      (polygon
+        (pts
+          (xy 0 0)
+          (xy 50 0)
+          (xy 50 30)
+          (xy 0 30)
+        )
+      )
+    )
+  )
+  (edge_cuts
+    (gr_line (start 0 0) (end 50 0) (layer "Edge.Cuts"))
+    (gr_line (start 50 0) (end 50 30) (layer "Edge.Cuts"))
+    (gr_line (start 50 30) (end 0 30) (layer "Edge.Cuts"))
+    (gr_line (start 0 30) (end 0 0) (layer "Edge.Cuts"))
+  )
+)
